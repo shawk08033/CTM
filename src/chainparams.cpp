@@ -66,9 +66,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000567bbebf0cde56b9d36d3476eb1ea5c5060a45006e3523e5eaab5e5e212"));
         assert(genesis.hashMerkleRoot == uint256("0xb929ecd9c646676b88098ad7a1031e0ab2baf390901083e3f22292b26d8c50b4"));
 
-        vSeeds.push_back(CDNSSeedData("ctm.unhinged.tk", "ctm.unhinged.tk"));
-        vSeeds.push_back(CDNSSeedData("pool.broketech.tk", "pool.broketech.tk"));
-  
+        vSeeds.push_back(CDNSSeedData("syncing.ctm.com.ar", "syncing.ctm.com.ar"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 28;
         base58Prefixes[SCRIPT_ADDRESS] = 28;
